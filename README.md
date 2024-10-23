@@ -1,12 +1,14 @@
 ## Magento 2 CLI Aliases
 
-```
-magento2_cli_aliases.sh
-```
+This repository contains some CLI aliases related to Magento 2 in order to ease/speed-up commands execution. The majority of these commands are executed via
+Warden ( https://github.com/davidalger/warden )
 
-The goal is ease/speed-up the execution of several CLI commands, many of those commands are executed using
-Warden shell (https://github.com/davidalger/warden)
-For example, in order to reindex, instead execute:\
-```cd /home/user/m2project; warden shell -c 'bin/magento indexer:reindex'```\
-just call:\
-```fre```
+### ⚒️ CLI Example
+
+```bash
+# for example, in order to reindex magento, instead execute =>
+cd /home/user/m2project; warden shell -c 'bin/magento indexer:reindex';
+
+# just call this alias =>
+fre;
+```
