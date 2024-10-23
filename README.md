@@ -3,7 +3,7 @@
 This repository contains some CLI aliases related to Magento 2 in order to ease/speed-up commands execution. The majority of these commands are executed via
 Warden ( https://github.com/davidalger/warden )
 
-### ⚒️ CLI Example
+### ⚒️ CLI Alias Example
 
 ```bash
 # for example, in order to reindex magento, instead execute =>
